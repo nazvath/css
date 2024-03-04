@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<style>
+    *{
+        box-sizing: border-box;
+        
+    }
+
+.parent {
+    background-color:green;
+  margin:1px;
+  padding:1px;
+    font-size: 2.50em;
+    
+}
+
+.hi {
+            display: grid; 
+            grid-template-columns:1fr 1fr 1fr 1fr;
+            grid-template-rows:1fr 1fr 1fr ;
+           grid-gap:5%;
+           border: 1px solid white;
+        
+
+        }
+        
+        
+        .child{ 
+            border: 1px solid white;
+           overflow: hidden;
+        }
+    
+    
+ 
+ .child, img {
+    
+           margin-top: 20px;
+            display: block;
+            /* width: 90%; */ */
+             /* height: auto;  */
+             grid-row-gap: 50%;
+             grid-column-gap:50%;
+             border: 1px solid white;
+        
+} 
+img{
+    width: 300px;
+    height: 200px;
+}
+   
+</style>
+<body>
+<div class="parent">
+ Image 
+ </div>
+    
+ <div class="hi"> 
+    <div class="child"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRezkhZEGyU-SbkR5X1RGxo8OxQFLfKonocyg&usqp=CAU" alt=""> </div>
+    <div class="child"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzJDx2rgz5O2J26_fzWpRxRIHyKbg_uOfsUQ&usqp=CAU" alt=""></div>
+    <div class="child"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3CQDEO83utmrNSsVt4QtJrmGqM2Dg0gej5g&usqp=CAU" alt=""></div>
+    <div class="child"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsIz4qZKTOplGKCIt860B8HP3mTBMZGACNFg&usqp=CAU" alt=""></div>
+    <div class="child"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU" alt=""></div>
+    <div class="child"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcqrXE6HREctXF4rWCPDXAXH9novSxFdeLg&usqp=CAU" alt="" ></div>
+    <div class="child"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz-T7cL1jsAXx7nH_oggpyMYGDXx1EmQrVFw&usqp=CAU" alt=""></div>
+    <div class="child"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCbmSfemii3dps00qLZfnVBoxNLD5Q8VRCnK7DYJe8D7iN73s_Gz5KAt4mza-LCemniDs&usqp=CAU" alt=""></div>
+    <div class="child"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqk2bAW09414QYNJkaIDBO8TUgRDwzKO1VWw&usqp=CAU" alt=""></div>
+
+</div>
+
+
+
+
+
+</body>
+
+</html>

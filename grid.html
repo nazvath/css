@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.parent{
+    background-color: chartreuse;
+  max-width: 700px;
+  margin: auto;
+    display: grid;
+     grid-template-columns: 3fr 3fr 3fr; 
+    /* grid-template-rows: 3fr 3fr 3fr; */
+    /* grid-template-columns: repeat(3, 1fr 2fr 3fr); */
+ grid-auto-rows: 200px;
+ /* grid-column-gap:50px; */
+ /* grid-row-gap: 20px; */
+ grid-gap: 20px;
+     
+}
+.child1{
+background-color: yellow;
+/* grid-column-start: 2; 
+grid-column-end: 3;
+grid-row-start:2;
+grid-row-end:3;
+grid-column-start:3;
+grid-column-end:4; */
+
+
+grid-area: 2/3/3/4;
+
+}
+
+
+</style>
+
+<body><div class="parent">
+
+
+    <div class="child1">1</div>
+    <div class="child2">2</div>
+    <div class="child3">3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    </div>
+</body>
+</html>

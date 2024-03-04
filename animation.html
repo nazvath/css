@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#div1{
+width: 200px;
+height:200px;
+background-color: red;
+animation-name: Animation;
+animation-duration: 4s;
+}
+@keyframes Animation
+{
+    from
+    {
+        background-color: blue;
+    }
+    to
+    {
+background-color: black;
+    }
+
+}
+
+
+
+#div2{
+
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    animation-name: Animation1;
+    animation-duration: 3s;
+}
+@keyframes Animation1
+{
+0% {background-color: green;}
+10%{background-color: blue;}
+25%{background-color: black;}
+50%{background-color: beige;}
+65%{background-color: brown;}
+85%{background-color: red;}
+100%{background-color: maroon;}
+}
+</style>
+<body>
+    <div id="div1"></div><br><br>
+    <div id="div2"></div>
+    <p>Animation</p>
+
+</body>
+</html>
